@@ -1,0 +1,18 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Goal: How about being able to live stream internet packet with a sniffer and process it with Spark?
+
+1. Get packet with Scapy sniffer.
+
+2. Get a Kafka topic up and running.
+
+3. Feed Kafka with scapy packets
+
+4. Get Spark to consume kafka feeds
+
+5. Do some simple operations on packets
+
+6. Store processed data to mongoDB
