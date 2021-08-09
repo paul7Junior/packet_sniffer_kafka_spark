@@ -3,7 +3,16 @@ title: "R Notebook"
 output: html_notebook
 ---
 
-Goal: How about being able to live stream internet packet with a sniffer and process it with Spark?
+Goal/Challenge: Being able to stream collect, process and store internet packets.
+
+Tech stack: Scapy - Kafka - Spark - MongoDB - Docker
+
+- Having all the services Dockerized
+- Make it scalable with docker Swarm
+
+
+
+How about being able to live stream internet packet with a sniffer and process it with Spark?
 
 1. Get packet with Scapy sniffer.
 
